@@ -1,117 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <title>Events Website</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<section>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!--  -->
-<header id="header"><a href="/"> 
- <h1>Welcome to MoringaCon 2026</h1>
-  <p>The Ultimate Technlogy and Programming Conference</p>
-</a>
-    
-</header>
-<!-- navigation bar -->
-<nav>
-    <a href="#about">About</a>
-    <a href="#schedule">Schedule</a>
-    <a href="#speakers">Speakers</a>
-    <a href="#contact">Contact</a>
+    <header id="header">
+      <a href="/">
+        <h1>Welcome to MoringaCon 2026</h1>
+        <p>The Ultimate Technlogy and Programming Conference</p>
+      </a>
+    </header>
 
+    <!-- navigation bar -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-</nav>
+    <!-- about section -->
+    <section id="about">
+      <h2>About the Event</h2>
+      <p>
+        MoringaCon 2026 brings together leading minds in programming,tech and
+        inovation. Join us for a day of meaningful talks,hands-on workshop and
+        opportunity to network with geeks all over the world
+      </p>
+    </section>
 
-<!-- about section -->
- <section id="about">
-    <h2>About the Event</h2>
-    <p>
-        MoringaCon 2026 brings together leading minds in programming,tech and inovation. Join us for a day of meaningful talks,hands-on workshop and opportunity to network with geeks all over the world
-    </p>
-
- </section>
-
- <!-- schedule section -->
-  <h2>Event Schedule</h2>
-  <!-- The schedule table -->
-   <section id="schedule">
-   <table>
-    <!-- This is the Head -->
-     <tbody>
-        <!-- Table row 1 -->
-         <tr>
+    <section id="schedule">
+      <!-- schedule section -->
+      <h2>Event Schedule</h2>
+      <!-- The schedule table -->
+      <table>
+        <!-- This is the Head -->
+        <tbody>
+          <!-- Table row 1 -->
+          <tr>
             <td>9:00 AM</td>
             <td>Opening Keynote</td>
             <td>Moringa Coding Platform</td>
-         </tr>
-         <!-- Table row 2 -->
-         <tr>
-         <td>10:30 AM</td>
-         <td>Understanding AI and Machine</td>
-         <td>Mr. Joseph</td>
-         </tr>
-         <!-- Table row 3 -->
-         <tr>
+          </tr>
+          <!-- Table row 2 -->
+          <tr>
+            <td>10:30 AM</td>
+            <td>Understanding AI and Machine</td>
+            <td>Mr. Joseph</td>
+          </tr>
+          <!-- Table row 3 -->
+          <tr>
             <td>1:00 PM</td>
             <td>Lunch Break</td>
             <td>-</td>
-         </tr>
-         <!-- Table row 4 -->
-         <tr>
+          </tr>
+          <!-- Table row 4 -->
+          <tr>
             <td>2:00 PM</td>
             <td>Exploring the Future of Cloud Computing</td>
-            <td>Mrs. Jane </td>
-         </tr>
-     </tbody>
-    <thead>
-        <!-- Table body -->
-         
-        <tr>
+            <td>Mrs. Jane</td>
+          </tr>
+        </tbody>
+        <thead>
+          <!-- Table body -->
+
+          <tr>
             <th>Time</th>
             <th>Session</th>
             <th>Contest</th>
-        </tr>
-    </thead>
-   </table>
-</section>
-<!-- speakers section -->
- <section id="speakers">
-<h2>Meet The speaker</h2>
-<ul>
-    <Li>
-        <Strong>Dr. Mike:</Strong>AI expert and researcher
-    </Li>
-    <li>
-        <strong>Mr. James:</strong>Senior Data Scientist
-    </li>
-    <li>
-        <strong>Mrs. Jane:</strong>Cloud Computing Specialist
-    </li>
-    <li>
-        <strong>Mrs. Sophie:</strong>Full-Stack devoloper
-    </li>
-</ul>
+          </tr>
+        </thead>
+      </table>
+    </section>
 
- </section>
-<!-- contact section -->
- <section id="contact">
-    <h2>Contact Us </h2>
-    <!-- contact form -->
+    <!-- speakers section -->
+    <section id="speakers">
+      <h2>Meet The speaker</h2>
+      <ul>
+        <li><strong>Dr. Mike:</strong>AI expert and researcher</li>
+        <li><strong>Mr. James:</strong>Senior Data Scientist</li>
+        <li><strong>Mrs. Jane:</strong>Cloud Computing Specialist</li>
+        <li><strong>Mrs. Sophie:</strong>Full-Stack devoloper</li>
+      </ul>
+    </section>
 
-     <!-- name input -->
-        <label for="full-name">Name:</label><br>
-        <input type="text" id="full-name" name="full-name" /><br><br>
+    <!-- contact section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <!-- contact form -->
+      <form>
+        <!-- name input -->
+        <label for="full-name">Name:</label><br />
+        <input type="text" id="full-name" name="full-name" /><br /><br />
 
         <!-- emain input-->
-         <label for="email:">Email:</label><br>
-         <input type="email" id="email" name="email" /><br><br>
+        <label for="email:">Email:</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
 
-         <!-- message input -->
-          <label for="message">Message:</label><br>
-<textarea name="message" id="message" rows="4"></textarea>
-
-     </form>
- </section>
-</body>
+        <!-- message input -->
+        <label for="message">Message:</label><br />
+        <textarea name="message" id="message" rows="4"></textarea><br><br />
+        <button type="submit">send</button>
+      </form>
+    </section>
+  </body>
 </html>
